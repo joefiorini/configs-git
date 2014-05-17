@@ -1,0 +1,8 @@
+.idea
+.rake_tasks~
+
+**/.tern-port
+
+**/.DS_Store
+
+vendor/bundle
