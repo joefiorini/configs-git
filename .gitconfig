@@ -9,6 +9,7 @@
   st  = status
   ci  = commit -v
   cm  = commit -vm
+  rcm = commit --amend -m
   br  = branch
   co  = checkout
   df  = diff
@@ -65,3 +66,5 @@
 [merge "gemfilelock"]
   name = relocks the gemfile.lock
   driver = bundle install
+[url "https://"]
+	insteadOf = git://
