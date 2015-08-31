@@ -29,6 +29,7 @@
   d   = diff
   dc  = diff --cached
   pr  = pull --rebase
+  latest = pull --rebase upstream master
   ar  = add -A
   stfu = stash --include-untracked
 
